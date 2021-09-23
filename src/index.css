@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.material-icons {
+  color: white;
+  font-size: 40px;  /* Preferred icon size */
+}
+label {
+  color: skyblue;
+}
+.active {
+  color: skyblue;
+}
+#sideicons {
+  width: 6rem;
+  background-color: #222;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#sideicons p {
+  cursor: pointer;
+}
+
+
+#sideicons span:hover, #sideicons small:hover {
+  color: skyblue;
+}
+
+#download_sidebar_button {
+  display: none;
+}
+
+#profilediv {
+  background-color: #3a3a3a;
+  height: 100vh;
+  width: 25rem;
+  position: fixed;
+  top: 0;
+  left: 6rem;
+}
+
+.userimage {
+  border-radius: 50%;
+  height: 250px;
+  filter: grayscale(50%);
+  cursor: pointer;
+}
+.userimage:hover {
+  filter: grayscale(0);
+  box-shadow: 1px 1px 2px black, 0 0 20px black, 0 0 5px white;
+
+}
+
+#download_button, #send_button {
+  border-radius: 20px;
+}
+
+#maindiv {
+  background-color: #222;
+  height: 100vh;
+  width: 89rem;
+  position: fixed;
+  top: 0;
+  left: 31rem;
+}
+#maindiv #second_container {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
+}
+#maindiv h1 {
+  text-align: left;
+}
+#maindiv #second_container #mobileuser {
+  display: none;
+}
+
+
+
+
+/* contact page design */
+
+#contact_cards .card {
+  width: 25rem;
+  background-color: #3a3a3a;
+  color: white;
+  cursor: pointer;
+}
+#contact_cards .card:hover, #todocards .card:hover {
+  transition: linear 0.5s;
+  transform: scale(1.1);
+}
+
+#contact_cards .material-icons {
+  color: skyblue;
+}
+
+/* about page design */
+
+.mylist li {
+  background-color: #222;
+}
+
+.mylist li span {
+  color: skyblue;
+}
+
+#todocards .card {
+  background-color: #3a3a3a;
+  color: white;
+  cursor: pointer;
+}
+
+#todocards .material-icons {
+  color: skyblue;
+}
+
+
+/* certificate page designs */
+#certificates_cards {
+  overflow: auto;
+  height: 75vh;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #222; 
+}
+
+#certificates_cards .col-sm {
+  background-color: #222;
+}
+#certificates_cards .col-sm img {
+  height: 300px;
+}
+#certificates_cards .col-sm img:hover {
+  transform: scale(1.3);
+  z-index: 1;
+  transition: 0.5s linear;
+}
+#certificates_cards .col-sm h5 {
+  color: skyblue;
+  font-weight: bold;
+}
+
+
+/* resume timeline code */
+
+#resume_timelines {
+  overflow: auto;
+  height: 90vh;
+}
+
+
+body{margin-top:20px;}
+.timeline {
+    border-left: 3px solid skyblue;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(114, 124, 245, 0.09);
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 40%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow: 0 0 0 3px #727cf5;
+    left: -55.8px;
+    background: #fff;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #profilediv {
+    display: none;
+  }
+
+  #maindiv {
+    left: 6rem;
+    width: 85%;
+  }
+  #maindiv #second_container {
+    left: 40%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+  }
+  #download_sidebar_button, #maindiv #second_container #mobileuser {
+    display: block;
+  }
+  .aboutdiv, .contactdiv {
+    overflow: auto;
+  }
+  #send_button, #todocards {
+    margin-bottom: 50px;
+  }
+  #contact_cards .card {
+    width: 21rem;
+  }
+}
