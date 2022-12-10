@@ -2,6 +2,8 @@ import React from 'react'
 import crm from '../project/crm.png'
 import music from '../project/music.png'
 import quiz from '../project/quiz.jpg'
+import funzo from '../project/funzo.png'
+import mybevy from '../project/mybevy.png'
 import research from '../project/research.jpeg'
 
 
@@ -20,6 +22,10 @@ const Resumescreen = () => {
                             <div className="card-body">
                                 <div id="content">
                                     <ul className="timeline">
+                                        <li className="event" data-date="Pursuing">
+                                            <h3>M Tech CS</h3>
+                                            <p>Amity University, Noida, India</p>
+                                        </li>
                                         <li className="event" data-date="May 2022">
                                             <h3>B Tech CS (CSF)</h3>
                                             <p>GLA University, Mathura, India</p>
@@ -79,7 +85,7 @@ const Resumescreen = () => {
                         <div className="col my-2">
                             <small className="text-white">C / C++</small>
                             <div className="progress">
-                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "50%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="50">50%</div>
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "70%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="70">70%</div>
                             </div>
                         </div>
 
@@ -91,16 +97,34 @@ const Resumescreen = () => {
                         </div>
 
                         <div className="col my-2">
-                            <small className="text-white">HTML / CSS / JAVASCRIPT</small>
+                            <small className="text-white">HTML / CSS </small>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                        </div>
+                        <div className="col my-2">
+                            <small className="text-white">Javascript / JQuery </small>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "85%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="85">85%</div>
+                            </div>
+                        </div>
+                        <div className="col my-2">
+                            <small className="text-white">React Js </small>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "90%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="90">90%</div>
+                            </div>
+                        </div>
+                        <div className="col my-2">
+                            <small className="text-white">Node Js / Express JS </small>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "85%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="85">85%</div>
                             </div>
                         </div>
 
                         <div className="col my-2">
                             <small className="text-white">PHP / CODEIGNITOR</small>
                             <div className="progress">
-                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="85">85%</div>
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "90%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="90">90%</div>
                             </div>
                         </div>
 
@@ -128,7 +152,7 @@ const Resumescreen = () => {
                         <div className="col my-2">
                             <small className="text-white">GIT / VCS</small>
                             <div className="progress">
-                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="50">50%</div>
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "70%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="70">70%</div>
                             </div>
                         </div>
 
@@ -136,19 +160,27 @@ const Resumescreen = () => {
 
 
                     <div className="col-md-6">
-                        <h5 className="text-start fw-bold text-white">Internship Experience</h5>
+                        <h5 className="text-start fw-bold text-white">Internship & Work Experience</h5>
 
                         <div className="card text-white" style={{ backgroundColor: "#222" }}>
                             <div className="card-body">
                                 <div id="content">
                                     <ul className="timeline">
+                                        <li className="event" data-date="Jun 2021">
+                                            <h3>Accenture</h3>
+                                            <p>Application Development Associate</p>
+                                        </li>
+                                        <li className="event" data-date="Nov 2021 - Jun 2022">
+                                            <h3>EMOHA ELDERCARE</h3>
+                                            <p>Backend Developer</p>
+                                        </li>
                                         <li className="event" data-date="May 2021 - Sep 2021">
                                             <h3>SIKARWAR SOFTWARES</h3>
-                                            <p>Full Stact Developer</p>
+                                            <p>Full Stack Developer</p>
                                         </li>
                                         <li className="event" data-date="May 2020 - May 2021">
                                             <h3>ACCRETIVE TECHOLOGIES</h3>
-                                            <p>Full Stact Developer</p>
+                                            <p>Full Stack Developer</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -167,13 +199,48 @@ const Resumescreen = () => {
                     <div className="card col-sm m-3">
                         <div className="row g-0">
                             <div className="col-md-4">
+                                <img src={funzo} className="img-fluid rounded-start" alt="CRM" />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title fw-bold">FUNZO</h5>
+                                    <p className="card-text">Clone of DUNZO Application</p>
+                                    <p className="card-text"><small className="text-muted">Last updated Aug 2021</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card col-sm m-3">
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={mybevy} className="img-fluid rounded-start" alt="CRM" />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title fw-bold">MYBEVY</h5>
+                                    <p className="card-text">Clone of BIGBASKET Application</p>
+                                    <p className="card-text"><small className="text-muted">Last updated Sep 2021</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div className="row my-4 p-2">
+
+                    <div className="card col-sm m-3">
+                        <div className="row g-0">
+                            <div className="col-md-4">
                                 <img src={crm} className="img-fluid rounded-start" alt="CRM" />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title fw-bold">CRM APPLICATION</h5>
                                     <p className="card-text">Customer relationship management application in Django</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 16 Sep 2021</small></p>
+                                    <p className="card-text"><small className="text-muted">Last updated Sep 2021</small></p>
                                 </div>
                             </div>
                         </div>
@@ -207,7 +274,7 @@ const Resumescreen = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">QUIZ APPLICATION</h5>
                                     <p className="card-text">Simple quiz app in Node Js</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 30 Aug 2021</small></p>
+                                    <p className="card-text"><small className="text-muted">Last updated Aug 2021</small></p>
                                 </div>
                             </div>
                         </div>

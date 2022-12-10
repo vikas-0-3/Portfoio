@@ -32,12 +32,12 @@ const Contactscreen = () => {
                                 contact.vikasgupta@gmail.com
                             </div>
                         </div>
-                        <div className="card my-3 py-2">
+                        {/* <div className="card my-3 py-2">
                             <span className="material-icons">&#xe2e6;</span>
                             <div className="card-body">
                                 Freelancing available
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/* how can i help you part */}
                     <div className="col-sm text-start">

@@ -40,12 +40,12 @@ const Aboutscreen = () => {
                     <div className="col-sm">
                         <div className="card my-3 p-3">
                             <span className="material-icons">&#xe871;</span>
-                            <h6 className="my-1 fw-bold">WEB DESIGN</h6>
+                            <h6 className="my-1 fw-bold">FULL STACK DEVELOPER</h6>
                             <p className="my-2">2+ Years Experience</p>
                         </div>
                         <div className="card my-3 p-3">
                             <span className="material-icons">&#xe3c9;</span>
-                            <h6 className="my-1 fw-bold">WEB EDITING</h6>
+                            <h6 className="my-1 fw-bold">WEB AUTOMATION</h6>
                             <p className="my-2">2+ Years Experience</p>
                         </div>
 
@@ -55,12 +55,12 @@ const Aboutscreen = () => {
                         <div className="card my-3 p-3">
                             <span className="material-icons">&#xe325;</span>
                             <h6 className="my-1 fw-bold">MOBILE APPS</h6>
-                            <p className="my-2">0+ Years Experience</p>
+                            <p className="my-2">1+ Years Experience</p>
                         </div>
                         <div className="card my-3 p-3">
                             <span className="material-icons">&#xe2e6;</span>
-                            <h6 className="my-1 fw-bold">FREELANCING</h6>
-                            <p className="my-2">1+ Years Experience</p>
+                            <h6 className="my-1 fw-bold">CRM / CMS</h6>
+                            <p className="my-2">2+ Years Experience</p>
                         </div>
 
                     </div>

@@ -4,7 +4,7 @@ import logo from '../myimage.jpg';
 
 const Homescreen = () => {
 
-    const roles = ["WEB DEVELOPER", "FULL STACK DEVELOPER", "MERN STACK DEVELOPER"];
+    const roles = ["MOBILE DEVELOPER", "FULL STACK DEVELOPER", "MERN STACK DEVELOPER"];
     const [role, setRole] = useState(roles[0]);
 
     useEffect(() => {
