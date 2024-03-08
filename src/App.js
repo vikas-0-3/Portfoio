@@ -18,10 +18,8 @@ const App = () => {
     <div className="App">
 
       <Router>
-        <Sidebar />
         <Sideicons />
-
-
+        <Sidebar />
 
         <Switch>
           <Route exact path="/">

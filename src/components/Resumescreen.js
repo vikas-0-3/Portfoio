@@ -12,7 +12,7 @@ const Resumescreen = () => {
         <div className="container-fluid p-4" id="maindiv">
             <h2 className="text-start fw-bold" style={{ color: "skyblue" }}>Resume </h2>
 
-            <div className="container my-2" id="resume_timelines">
+            <div className="container mx-0 my-2" id="resume_timelines">
                 <br />
                 <div className="row">
                     <div className="col-md-6">
@@ -49,7 +49,7 @@ const Resumescreen = () => {
                         <div className="col my-2">
                             <small className="text-white">Teamwork</small>
                             <div className="progress">
-                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                             </div>
                         </div>
 
@@ -63,14 +63,14 @@ const Resumescreen = () => {
                         <div className="col my-2">
                             <small className="text-white">Analytical Thinking</small>
                             <div className="progress">
-                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "80%" }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "85%" }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">85%</div>
                             </div>
                         </div>
 
                         <div className="col my-2">
                             <small className="text-white">Leadership</small>
                             <div className="progress">
-                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "75%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                <div className="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: "80%" }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
                             </div>
                         </div>
 

@@ -18,7 +18,7 @@ label {
   color: skyblue;
 }
 #sideicons {
-  width: 6rem;
+  width: 5%;
   background-color: #222;
   height: 100vh;
   position: fixed;
@@ -41,10 +41,10 @@ label {
 #profilediv {
   background-color: #3a3a3a;
   height: 100vh;
-  width: 25rem;
+  width: 22%;
   position: fixed;
   top: 0;
-  left: 6rem;
+  left: 5%;
 }
 
 .userimage {
@@ -66,21 +66,21 @@ label {
 #maindiv {
   background-color: #222;
   height: 100vh;
-  width: 89rem;
-  position: fixed;
-  top: 0;
-  left: 31rem;
+  width: 73%;
+  position: absolute;
+  left: 27%;
 }
-#maindiv #second_container {
+#second_container {
   position: absolute;
   left: 50%;
   top: 40%;
   transform: translate(-50%,-50%);
 }
-#maindiv h1 {
+#profileDetails {
+  margin-top: 27.5vh !important;
   text-align: left;
 }
-#maindiv #second_container #mobileuser {
+#maindiv #mobileuser {
   display: none;
 }
 
@@ -90,7 +90,7 @@ label {
 /* contact page design */
 
 #contact_cards .card {
-  width: 25rem;
+  width: 80%;
   background-color: #3a3a3a;
   color: white;
   cursor: pointer;
@@ -164,7 +164,6 @@ label {
 }
 
 
-body{margin-top:20px;}
 .timeline {
     border-left: 3px solid skyblue;
     border-bottom-right-radius: 4px;
@@ -282,26 +281,35 @@ body{margin-top:20px;}
   #profilediv {
     display: none;
   }
+  #sideicons {
+    width: 24%;
+    height: 100vh;
+  }
 
   #maindiv {
-    left: 6rem;
-    width: 85%;
-  }
-  #maindiv #second_container {
-    left: 40%;
-    top: 30%;
-    transform: translate(-50%,-50%);
-  }
-  #download_sidebar_button, #maindiv #second_container #mobileuser {
-    display: block;
-  }
-  .aboutdiv, .contactdiv {
+    left: 24%;
+    width: 76%;
+    height: 100vh;
     overflow: auto;
   }
+ 
+  #download_sidebar_button, #maindiv #mobileuser {
+    display: block;
+  } 
+  #profileDetails {
+    margin-top: 0 !important;
+    text-align: center;
+  }
+  #profileDetails hr{
+    margin-left: 22%;
+    width: 75%;
+  }
+
+
   #send_button, #todocards {
     margin-bottom: 50px;
   }
   #contact_cards .card {
-    width: 21rem;
+    width: 100%;
   }
 }

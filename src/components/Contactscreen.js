@@ -5,13 +5,13 @@ const Contactscreen = () => {
 
     return (
         <div className="container-fluid p-4 contactdiv" id="maindiv">
-            <div className="container my-3">
-                <h2 className="text-start"  style={{ color: "skyblue" }}><b>Contact</b></h2>
+            <div className="container mx-0 my-3">
+                <h2 className="text-start" style={{ color: "skyblue" }}><b>Contact</b></h2>
 
             </div>
             <br />
 
-            <div className="container" id="contact_cards">
+            <div className="container mx-0" id="contact_cards">
                 <div className="row">
                     <div className="col-sm">
                         <div className="card my-3 py-2">
@@ -29,32 +29,26 @@ const Contactscreen = () => {
                         <div className="card my-3 py-2">
                             <span className="material-icons">&#xe0be;</span>
                             <div className="card-body">
-                                contact.vikasgupta@gmail.com
+                                contact.vikasgupta03@gmail.com
                             </div>
                         </div>
-                        {/* <div className="card my-3 py-2">
-                            <span className="material-icons">&#xe2e6;</span>
-                            <div className="card-body">
-                                Freelancing available
-                            </div>
-                        </div> */}
                     </div>
                     {/* how can i help you part */}
-                    <div className="col-sm text-start">
+                    <div className="col-sm text-start"> 
                         <h4 className="text-white"><b>How Can I <span style={{ color: "skyblue" }}>Help You? </span></b></h4>
                         <br />
 
                         <div className="row">
                             <div className="col-sm">
-                                <div classNAme="mb-3">
+                                <div className="mb-3">
                                     <label htmlFor="username" className="form-label">Full name</label>
                                     <input type="text" className="form-control bg-dark text-white" id="username" placeholder="Full name" />
                                 </div>
-                                <div classNAme="mb-3">
+                                <div className="mb-3">
                                     <label htmlFor="email" className="form-label">Email address</label>
                                     <input type="email" className="form-control bg-dark text-white" id="email" placeholder="Email address" />
                                 </div>
-                                <div classNAme="mb-3">
+                                <div className="mb-3">
                                     <label htmlFor="phone" className="form-label">Phone number</label>
                                     <input type="text" className="form-control bg-dark text-white" id="phone" placeholder="Phone number" />
                                 </div>
@@ -66,14 +60,10 @@ const Contactscreen = () => {
                                     <textarea className="form-control bg-dark text-white" id="message" rows="7" placeholder="message"></textarea>
                                 </div>
                             </div>
-                            <div class="d-grid mx-auto">
-                            <button type="button" class="btn btn-outline-info p-2" id="send_button">Send Message</button>
-
+                            <div className="d-grid mx-auto mt-4">
+                                <button type="button" className="btn btn-outline-info p-2" id="send_button">Send Message</button>
                             </div>
                         </div>
-
-
-
 
                     </div>
                 </div>

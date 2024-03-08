@@ -10,7 +10,7 @@ const Certificatescreen = () => {
 
     return (
         <div className="container-fluid p-4" id="maindiv">
-            <div className="container my-3">
+            <div className="container mx-0 my-3">
                 <h2 className="text-start fw-bold" style={{ color: "skyblue" }}>Certificates </h2>
                 <br />
                 <div className="row mt-4 text-muted">
@@ -35,7 +35,7 @@ const Certificatescreen = () => {
             </div>
             <br />
 
-            <div className="container" id="certificates_cards">
+            <div className="container mx-0" id="certificates_cards">
 
                 <div className="row">
 
